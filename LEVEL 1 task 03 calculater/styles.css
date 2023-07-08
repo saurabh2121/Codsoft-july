@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700&family=Poppins:wght@300&display=swap');
+
+body {
+    background: url(./background.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    color: yellow;
+}
+
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background:linear-gradient(rgba(0, 0, 255, 0.295),rgba(128, 0, 128, 0.837));
+    border-top: 3px solid blue;
+    border-left: 3px solid blue;
+    border-bottom: 3px solid purple;
+    border-right: 3px solid purple;
+}
+
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+}
+
+#btn {
+    background-color: rgb(222, 0, 222);
+}
+
+
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: rgba(56, 56, 255, 0.449);
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+
+input:active[type=button] {
+    background: #e5e5e5;
+    color: black;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
